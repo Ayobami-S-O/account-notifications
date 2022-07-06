@@ -1,7 +1,7 @@
 @import url(style.css);
 
 .account-hero {
-  background-image: url(../img/account-page-image/Rectangle\ 1473.png);
+  background-image: url(../img/account-notification-image/Rectangle\ 1473.png);
   background-size: cover;
   background-position: center;
   margin-bottom: -1rem;
@@ -24,11 +24,14 @@
   cursor: pointer;
 }
 
-.account-select:hover,
-.account-select:active {
+.notification-btn:hover,
+.notification-btn:active {
   background-color: #cfe2ff !important;
 }
 
+#notToggle{
+  display: none;
+}
 
 /* The switch - the box around the slider */
 .switch {
